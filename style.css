@@ -305,11 +305,11 @@ footer{
 	background-color: #6dc066;
 }
 
-
-.columm:hover {
-	box-shadow: 10px 15px 0 0 #000;
+/*
+.columm:hover  {
+	box-shadow: 0 10px 15px 0 #000;
 }
-
+*/
 
 .columm .head-item{
 	font-size:18px;
@@ -331,7 +331,7 @@ footer{
 /*End of pricing page*/
 
 
-@media(max-width: 800px){
+@media(max-width: 768px){
 	#services, #sidequote, .boxes .box, header #branding, header #mainnav, #newsletter h1, #newsletter form, #mainbody, #sidebar, .main #services, .main #sidequote{
 		float:none;
 		width:100%;

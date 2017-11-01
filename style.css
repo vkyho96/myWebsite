@@ -101,10 +101,16 @@ nav {
 
 header ul{
 	padding:0;
+
 }
 header li{
 	list-style: none;
 	display: inline;
+
+}
+
+#mainnav {
+	margin-top: 8px;
 }
 header a{
 	text-decoration: none;
@@ -258,7 +264,12 @@ footer{
 
 #pricing-body {
 	background-color:#001414;
-;
+}
+
+#pricing-body h2 {
+	color:#d3d3d3;
+	text-align: center;
+	margin-bottom: 0;
 }
 
 .columm {
@@ -312,15 +323,15 @@ footer{
 	color:#fff;
 }
 
-footer .pricing-footer {
-	margin-top:1000px;
+.pricing-footer {
+	margin-top:100px;
 }
 
 
 /*End of pricing page*/
 
 
-@media(max-width: 768px){
+@media(max-width: 800px){
 	#services, #sidequote, .boxes .box, header #branding, header #mainnav, #newsletter h1, #newsletter form, #mainbody, #sidebar, .main #services, .main #sidequote{
 		float:none;
 		width:100%;
@@ -336,4 +347,22 @@ footer .pricing-footer {
 		height:40px;
 	}
 
-}
+
+/* Pricing*/
+	.columm {
+		float:none;
+		width:100%;
+	}
+
+	.columm li {
+		padding: 20px 0px;
+		font-size:18px;
+	}
+
+	.columm .head-item {
+		font-size: 24px;
+	}
+/* Ed=nd of Pricing*/
+
+
+}/*End of media querieh*/

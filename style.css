@@ -184,7 +184,6 @@ header a:hover{
 	font-weight: bold;
 }
 
-
 .boxes {
 	margin-top:30px;
 }
@@ -258,6 +257,12 @@ footer{
 	color:#fff;
 	margin-top: 100px;
 }
+
+#about-footer, #pricing-footer {
+	margin-top: 230px;
+}
+
+
 
 
 /*Pricing page*/
